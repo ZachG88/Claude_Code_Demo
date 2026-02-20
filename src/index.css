@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  /* Pacific Northwest Dark Palette */
+  --color-forest-950: #080e0b;
+  --color-forest-900: #0d1a12;
+  --color-forest-800: #112316;
+  --color-forest-700: #1a3a23;
+  --color-forest-600: #254f30;
+  --color-forest-500: #2d6a3f;
+  --color-forest-400: #3d8a52;
+  --color-forest-300: #5aab6f;
+  --color-forest-200: #88c99a;
+  --color-forest-100: #c2e8cc;
+
+  --color-sound-950: #070d12;
+  --color-sound-900: #0c1520;
+  --color-sound-800: #111f2e;
+  --color-sound-700: #1a2f42;
+  --color-sound-600: #244059;
+  --color-sound-500: #2f5270;
+  --color-sound-400: #4a7899;
+  --color-sound-300: #6fa0be;
+  --color-sound-200: #9fc4d9;
+  --color-sound-100: #cde4f0;
+
+  --color-mist-100: #e8eef2;
+  --color-mist-200: #c8d6de;
+  --color-mist-300: #a0b8c4;
+  --color-mist-400: #7a99a8;
+  --color-mist-500: #56788a;
+
+  --color-cedar-400: #b5804a;
+  --color-cedar-300: #cc9a62;
+  --color-cedar-200: #ddb882;
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    background-color: #080e0b;
+    color: #e8eef2;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: #2d6a3f;
+    color: white;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0d1a12;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #254f30;
+    border-radius: 3px;
+  }
+}
