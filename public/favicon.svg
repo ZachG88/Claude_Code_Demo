@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="8" fill="#0d1a12"/>
+  <rect width="32" height="32" rx="8" fill="url(#grad)" opacity="0.6"/>
+  <text
+    x="16"
+    y="22"
+    font-family="'Inter', 'Helvetica Neue', Arial, sans-serif"
+    font-size="13"
+    font-weight="700"
+    fill="#88c99a"
+    text-anchor="middle"
+    letter-spacing="-0.5"
+  >ZG</text>
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1a3a23"/>
+      <stop offset="100%" stop-color="#0c1520"/>
+    </linearGradient>
+  </defs>
+</svg>
